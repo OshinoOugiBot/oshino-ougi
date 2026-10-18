@@ -1,4 +1,3 @@
-
 const prefix = "#";
 
 function responder(mensaje) {
