@@ -1,0 +1,23 @@
+
+name: Probar Oshino Ougi
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar proyecto
+        uses: actions/checkout@v4
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Ejecutar prueba
+        run: node index.js
+
+        
