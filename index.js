@@ -1,5 +1,5 @@
 
-const prefix = "!";
+const prefix = "#";
 
 function responder(mensaje) {
   const texto = mensaje.toLowerCase().trim();
