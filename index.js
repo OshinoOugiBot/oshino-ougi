@@ -24,7 +24,7 @@ function menu() {
 ┃ MISTERIOS
 ┃ #riddle
 ┃ #case
-╰━━━━━━━━━━━━━━━━`;
+╰━━━━━━━━`;
 }
 
 function responder(texto, chatId) {
@@ -142,4 +142,4 @@ async function iniciarBot() {
 }
 
 iniciarBot().catch(console.error);
-        
+  
